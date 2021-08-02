@@ -1538,13 +1538,14 @@ code:not([class*='language-']) {
 .cm-s-obsidian span.cm-inline-code {
     font-weight: 600;
     font-family: var(--text-family-inline-code) !important;
+    /* margin-left: 0; */
 }
 
 /*====================================*/
 /*============  list =================*/
 /*============================== =====*/
 
-span.cm-list-1,
+/* span.cm-list-1,
 span.cm-list-2,
 span.cm-list-3,
 span.cm-list-4,
@@ -1555,7 +1556,9 @@ span.cm-list-8,
 span.cm-list-9,
 span.cm-list-10 {
     margin-left: 0.5em;
-}
+} */
+
+
 
 .cm-s-obsidian .HyperMD-list-line {
     padding-top: 10px;
@@ -1567,6 +1570,7 @@ span.cm-list-10 {
 }
 
 .cm-s-obsidian span.cm-formatting-list-ul {
+    margin-right: 0.5em;
     color: var(--background-primary) !important;
 }
 
@@ -1597,7 +1601,7 @@ span.cm-list-10 {
     border-left: 1px solid var(--text-accent);
     opacity: 0.35;
     position: absolute;
-    left: 17px;
+    left: 9px;
     top: -10px;
     bottom: -9999px;
 }
